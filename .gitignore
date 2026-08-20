@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+backend/venv/
+
+# Audio Dataset (43,200+ audio files, ~5.5GB - exceeds GitHub push limits)
+notes_dataset/
+backend/new_samples/
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# Trained Model Binaries
+*.pkl
+backend/model.pkl
+backend/test_model.pkl
+
+# Logs & temporary files
+*.log
+training.log
+training_errors.log
+
+# IDE & OS metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# AI Assistant files
+.agents/
+.planning/
